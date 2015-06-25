@@ -1,0 +1,175 @@
+/*-------------------------------------------------------------------------------------------*/
+/*- MEDIA QUERIES ---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* layouts smaller than 600px, iPhone and mobiles */
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px) {
+	html {-webkit-text-size-adjust: none;}
+	body{font-size: 14px;}
+	p{font-size: 14px;}
+	#header-container{padding: 20px 0px 0px; margin: 0px;}
+	#header{padding: 0px; margin-bottom: 20px;}
+	#content-container{margin: 0px; padding: 0px;}
+	#left-column{float: none; width: 100%; padding: 0px; margin-bottom: 30px;}
+	#right-column{float: none; width: 100%; padding: 0px;}	
+	.double-cloumn #left-column {clear: both; float: none; width: 100%;}
+	.double-cloumn #right-column {clear: both; float: none; width: 100%}
+	
+	.post-title{margin-bottom: 20px; font-size: 25px;}
+	.section-title{margin-bottom: 20px; font-size: 25px;}
+
+	/*---------------------------------------*/
+	/*- HEADER ------------------------------*/
+	.logo{float: none; padding: 0px 0px 20px; margin: 0px;}
+	.logo h1{font-size: 30px; line-height: 35px;}
+	
+	
+	/*---------------------------------------*/
+	/*- NAVIGATION --------------------------*/
+	#navigation-container{position: relative; margin-bottom: 25px;}
+	#menu-drop-button{position: absolute; top: 0px; right: 0px; z-index: 5; display: block; height: 35px; width: 35px; background: #D4D4D1 url(images/layout/drop-down.png) center no-repeat;}
+	ul#nav{padding: 20px 0px 15px; margin: 0px; float: none; font-size: 14px; display: none;}
+	ul#nav li{float: none; display: block; margin: 0px 0px 10px 0px; padding: 0px; text-align: left; background: none !important;}
+	ul#nav li:last-child{border-bottom: none;}
+	ul#nav li a{display: block; padding: 0px; margin-bottom: 0px; border: none; font-size: 14px;}
+	ul#nav li a:hover{color: #000; border: none !important; margin-bottom: 0px !important;}
+	
+		/*--------------------------*/
+		/*- SUB MENU ---------------*/
+		ul#nav ul.sub-menu{background: none !important; display: block !important; visibility: visible !important; position: relative; top: auto; left: auto; width: auto; margin-bottom: 15px; margin-top: 5px; padding-left: 5px;}
+		ul#nav ul.sub-menu ul{}
+		ul#nav ul.sub-menu li{width: auto; margin-bottom: 4px;}
+		ul#nav ul.sub-menu li a{border: none !important; padding: 0px !important;}	
+		
+		#widget-block .widget_ocmx_social_widget, #widget-block .search-form{width: 100%; clear: both; float: none;}
+		.search-form input[type="text"]{max-width: 58%;}
+
+	
+	/*----------------------------*/
+	/*- COLUMNS ------------------*/
+	#widget-block .content-widget .column{float: none; width: 100%; margin: 0 0 20px; padding: 0;}
+	.portfolio-list .column{float: none !important; width: 100% !important; margin: 0 0 20px !important; padding: 0 !important;}
+			
+	
+	/*----------------------------*/
+	/*- ARCHIVES -----------------*/
+	.archives_list li{float: none; width: 100%; margin: 0px 0px 20px 0px; overflow: hidden;}
+
+
+	/*---------------------------------------*/
+	/*- RIGHT COLUMN ------------------------*/
+	#right-column ul.widget-list li.widget:last-child{padding-bottom: 30px; margin-bottom: 0px; border-bottom: none;}
+	
+	
+/*-------------------------------------------------------------------------------------------*/
+/*- PORTFOLIO --------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+	/*------------------------------*/
+	/*- CATEGORY COLUMN ----------------*/
+	.portfolio #category-column ul li{width: 50%; padding: 0px; margin-bottom: 10px;}
+	.portfolio #category-column ul li a{display: block;}
+	.portfolio #category-column ul li a.selected{font-weight: bold;}
+
+
+	/*------------------------*/
+	/*- FOUR COLUMN ---------*/
+	.portfolio-list.four-column li{float: left; width: 45%; margin: 0px 10% 30px 0px; text-align: left; clear: none;}
+	.portfolio-list.four-column li:nth-child(2n+2){margin-right: 0;}
+	.portfolio-list.four-column li:nth-child(2n+3){clear: left;}
+
+
+	/*------------------------*/
+	/*- THREE COLUMN ---------*/
+	.portfolio-list.three-column li{width: 45%; margin: 0px 10% 30px 0px;}
+	.portfolio-list.three-column li:nth-child(3n+3){margin: 0px 2.12766% 30px 0px;}
+	.portfolio-list.three-column li:nth-child(3n+4){clear: none;}
+	.portfolio-list.three-column li:nth-child(2n+2){margin: 0px;}
+	
+	/*------------------------*/
+	/*- TWO COLUMN -----------*/
+	.portfolio-list.two-column li{width: 45%; margin: 0px 10% 30px 0px;}
+		
+		
+/*-------------------------------------------------------------------------------------------*/
+/*- PORTFOLIO SUB PAGE ----------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+	/*------------------------------*/
+	/*- LEFT COLUMN ----------------*/
+	.portfolio #portfolio-content {float: right; width: 100%;}
+	.portfolio #portfolio-left h4{margin-bottom: 10px; font-weight: bold; font-size: 24px;}
+	
+
+	/*------------------------------*/
+	/*- RIGHT COLUMN ---------------*/
+	.portfolio #portfolio-image {float: left; width: 100%;}
+	.portfolio .post-title{margin-bottom: 20px;}
+		
+	
+/*-------------------------------------------------------------------------------------------*/
+/*- FOOTER ----------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+#footer ul{padding: 0px;}	
+#footer ul li.column{float: none; width: auto; padding: 0px; margin-bottom: 30px;}
+#footer ul li.column:last-child{margin-bottom: 0px;}
+#footer ul li.column li:last-child{margin: 0px; padding: 0px; border-bottom: none;}
+
+.footer-text{text-align: center;}
+.footer-text p, .footer-text .obox-credit{float: none;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- ECOMMERCE ------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+#top-panel{float: none; width: 100%; margin: 0px 0px 20px; position: static; overflow: hidden;}
+#top-panel .cart-bottom{float: none; margin: auto;}
+#top-panel table{text-align: left;}
+
+.cart-collaterals .cart_totals{float: none; width: 100%;}
+.cart-collaterals .shipping_calculator{float: none; width: 96%;}
+
+.products li{float: none; width: 100%; margin: 0px 0px 30px;}
+.related, .related products{display: none !important;}
+	
+}
+
+/*---------------*/
+/* iPad PORTRAIT */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+
+
+	/*---------------------------------------*/
+	/*- NAVIGATION --------------------------*/
+	ul#nav li{padding: 0; margin: 0px 0px 10px; background: none;}
+	
+	
+	/*------------------------------------*/
+	/*- SEARCH ---------------------------*/
+	.search-form input[type=text]{width: 70%; height: 30px; padding: 15px 0px; text-align: center;}
+
+#widget-block .widget_ocmx_social_widget, #widget-block .search-form{width: 45%; display: inline-block;}
+
+	/*------------------------------------*/
+	/*- SOCIAL ---------------------------*/
+
+	
+	
+	/*------------------------*/
+	/*- FOUR COLUMN ---------*/
+	.portfolio-list.four-column li{float: left; width: 48.93617%; margin: 0px 2.12766% 30px 0px; text-align: left; clear: none;}
+	.portfolio-list.four-column li:nth-child(2n+2){margin-right: 0;}
+	.portfolio-list.four-column li:nth-child(2n+3){clear: left;}
+	
+	
+	/*------------------------*/
+	/*- THREE COLUMN ---------*/
+	.portfolio-list.three-column li{width: 48.93617%; margin: 0px 2.12766% 30px 0px;}
+	.portfolio-list.three-column li:nth-child(3n+3){margin: 0px 2.12766% 30px 0px;}
+	.portfolio-list.three-column li:nth-child(3n+4){clear: none;}
+	.portfolio-list.three-column li:nth-child(2n+2){margin: 0px;}
+
+}

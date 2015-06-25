@@ -1,0 +1,35 @@
+	/*--------------------------------------------*/
+	/*- SOCIAL BOOKMARKS -------------------------*/
+	ul.social-bookmarks li{float: left; margin: 0px 10px 10px 0px; padding: 0px  !important; border: none !important; list-style: none !important;}
+	ul.social-bookmarks li:first-child{margin-left: 5px;}
+		ul.social-bookmarks li a{display: block; width: 38px; height: 38px; text-indent: -9999px; overflow: hidden;}
+
+			ul.social-bookmarks li a.facebook 		{background-position: -0px -0px;}
+			ul.social-bookmarks li a.twitter 		{background-position: -56px -0px;}
+			ul.social-bookmarks li a.flickr 		{background-position: -113px -0px;}
+			ul.social-bookmarks li a.youtube 		{background-position: -169px -0px;}
+			ul.social-bookmarks li a.vimeo 			{background-position: -225px -0px;}
+			ul.social-bookmarks li a.reverbnation 	{background-position: -281px -0px;}
+			ul.social-bookmarks li a.google 		{background-position: -337px -0px;}
+			ul.social-bookmarks li a.lastfm 		{background-position: -393px -0px;}
+			ul.social-bookmarks li a.linkedin		{background-position: -451px -0px;}
+			ul.social-bookmarks li a.pinterest 		{background-position: -508px -0px;}
+			ul.social-bookmarks li a.soundcloud 	{background-position: -565px -0px;}
+			ul.social-bookmarks li a.instagram		{background-position: -624px -0px;}
+			ul.social-bookmarks li a.rss		{background-position: -681px -0px;}
+
+			/*-------------------------*/
+			/*- HOVER -----------------*/
+			ul.social-bookmarks li a.facebook:hover 	{background-position: -0px -50px;}
+			ul.social-bookmarks li a.twitter:hover 		{background-position: -56px -50px;}
+			ul.social-bookmarks li a.flickr:hover 		{background-position: -113px -50px;}
+			ul.social-bookmarks li a.youtube:hover 		{background-position: -169px -50px;}
+			ul.social-bookmarks li a.vimeo:hover 		{background-position: -225px -50px;}
+			ul.social-bookmarks li a.reverbnation:hover {background-position: -281px -50px;}
+			ul.social-bookmarks li a.google:hover 		{background-position: -337px -50px;}
+			ul.social-bookmarks li a.lastfm:hover 		{background-position: -393px -50px;}
+			ul.social-bookmarks li a.linkedin:hover		{background-position: -451px -50px;}
+			ul.social-bookmarks li a.pinterest:hover	{background-position: -508px -50px;}
+			ul.social-bookmarks li a.soundcloud:hover	{background-position: -565px -50px;}
+			ul.social-bookmarks li a.instagram:hover			{background-position: -624px -50px;}
+			ul.social-bookmarks li a.rss:hover			{background-position: -681px -50px;}

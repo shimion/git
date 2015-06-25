@@ -1,0 +1,31 @@
+/*------------------------------------------------*/
+/* layouts smaller than 600px, iPhone and mobiles */
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px) {
+
+	/*---------------------------------------*/
+	/*- HEADER ------------------------------*/
+	.logo{border-bottom: 4px solid #333;}
+	
+	
+	/*---------------------------------------*/
+	/*- NAVIGATION --------------------------*/
+	#menu-drop-button{background: #333 url(layout/drop-down.png) center no-repeat;}
+	ul#nav{border-bottom: 4px solid #333;}
+	ul#nav li{background: none;}
+	ul#nav li:last-child{border-bottom: none;}
+	ul#nav li a{border: none;}
+	ul#nav li a:hover{border: none;}
+
+	ul#nav ul.sub-menu li{border: none !important;}
+	ul#nav ul.sub-menu li a:hover{color: #fff !important; background: none !important;}
+	
+	/*---------------------------------------*/
+	/*- RIGHT COLUMN ------------------------*/
+	#right-column ul.widget-list li.widget:last-child{border-bottom: none;}
+
+
+	/*---------------------------------------*/
+	/*- FOOTER ------------------------------*/
+	#footer ul li.column li:last-child{border-bottom: none;}
+	
+}

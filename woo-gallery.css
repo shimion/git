@@ -1,0 +1,7 @@
+.single-product .images{display: block; overflow: hidden;}
+.single-product .images .thumbnails{display: block; float: left; margin-bottom: 25px;}
+.single-product .images .thumbnails a{float: left; margin-right: 15px;}
+.single-product .images .thumbnails a: last-child{margin-right: 0px;}
+.single-product .images .thumbnails a img{width: 100px; height: auto; padding: 4px;}
+.single-product .thumbnails a{margin: 0px 1.9% 1.9% 0px;}
+.single-product .thumbnails a:last-child{margin-right: 0px;}

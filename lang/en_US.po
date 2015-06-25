@@ -1,0 +1,648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mag.Press v1.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-05-22 00:59+0000\n"
+"Last-Translator: admin <me@nickhamze.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: ajax/show-comments.php:42
+#@ default
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:57
+#@ ocmx
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:66
+#@ ocmx
+msgid "Name"
+msgstr ""
+
+#: comments.php:67
+#@ ocmx
+msgid "Email"
+msgstr ""
+
+#: comments.php:68
+#@ ocmx
+msgid "URL"
+msgstr ""
+
+#: comments.php:71
+#@ ocmx
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:27
+#: comments.php:123
+#@ ocmx
+msgid "Comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:79
+#@ $themename
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:151
+#: ocmx/front-end/post-functions.php:10
+#@ default
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:154
+#@ default
+msgid "The page you are looking for does not exist"
+msgstr ""
+
+#: ocmx/custom.php:129
+#@ default
+msgid "Excerpt"
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:63
+#@ default
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:70
+#@ default
+msgid "<p>Error: please fill the required fields (name, email).</p>"
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:72
+#@ default
+msgid "<p>Error: please enter a valid email address.</p>"
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:76
+#@ default
+msgid "<p>Error: please type a comment.</p>"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:8
+#@ default
+msgid "Archives"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:16
+#@ default
+msgid "Your Search Results for:"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:45
+#@ default
+msgid "Features"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:47
+#@ default
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/includes/media.php:59
+#@ default
+msgid "Could not read image size"
+msgstr ""
+
+#: ocmx/includes/media.php:109
+#: ocmx/includes/media.php:112
+#: ocmx/includes/media.php:117
+#@ default
+msgid "Resize path invalid"
+msgstr ""
+
+#: ocmx/includes/update-class.php:25
+#@ default
+msgid "Invalid Data provided."
+msgstr ""
+
+#: ocmx/includes/update-class.php:26
+#@ default
+msgid "Could not access filesystem."
+msgstr ""
+
+#: ocmx/includes/update-class.php:27
+#@ default
+msgid "Filesystem error."
+msgstr ""
+
+#: ocmx/includes/update-class.php:28
+#@ default
+msgid "Unable to locate WordPress Root directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:29
+#@ default
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:30
+#@ default
+msgid "Unable to locate WordPress Plugin directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:31
+#@ default
+msgid "Unable to locate WordPress Theme directory."
+msgstr ""
+
+#. translators: %s: directory name
+#: ocmx/includes/update-class.php:33
+#, php-format
+#@ default
+msgid "Unable to locate needed folder (%s)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:35
+#@ default
+msgid "Download failed."
+msgstr ""
+
+#: ocmx/includes/update-class.php:36
+#@ default
+msgid "Installing the latest version&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:37
+#@ default
+msgid "Destination folder already exists."
+msgstr ""
+
+#: ocmx/includes/update-class.php:38
+#@ default
+msgid "Could not create directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:39
+#@ default
+msgid "Incompatible Archive."
+msgstr ""
+
+#: ocmx/includes/update-class.php:41
+#@ default
+msgid "Enabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:42
+#@ default
+msgid "Disabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/interface/adverts.php:14
+#@ default
+msgid "You have not set any adverts."
+msgstr ""
+
+#: ocmx/interface/fonts.php:46
+#@ default
+msgid "Current Font"
+msgstr ""
+
+#: ocmx/interface/form-items.php:35
+#: ocmx/interface/form-items.php:37
+#: taxonomy-portfolio-category.php:25
+#@ default
+#@ ocmx
+msgid "All"
+msgstr ""
+
+#: ocmx/interface/form-items.php:39
+#@ default
+msgid "Use a Custom Description"
+msgstr ""
+
+#: ocmx/interface/form-items.php:128
+#@ default
+msgid "Browse"
+msgstr ""
+
+#: ocmx/interface/form-items.php:129
+#@ default
+msgid "Clear"
+msgstr ""
+
+#: ocmx/interface/form-items.php:131
+#@ default
+msgid "Your  will not be automatically resized."
+msgstr ""
+
+#: ocmx/interface/form-items.php:139
+#@ default
+msgid "Select from previously uploaded 's"
+msgstr ""
+
+#: ocmx/interface/gallery.php:48
+#@ default
+msgid "Title"
+msgstr ""
+
+#: ocmx/interface/gallery.php:52
+#@ default
+msgid "Description"
+msgstr ""
+
+#: ocmx/interface/gallery.php:59
+#@ default
+msgid "Gallery Date"
+msgstr ""
+
+#: ocmx/interface/gallery.php:66
+#@ default
+msgid "Effects"
+msgstr ""
+
+#: ocmx/interface/gallery.php:102
+#@ default
+msgid "Apply special effected to all the images in this gallery."
+msgstr ""
+
+#: ocmx/interface/gallery.php:113
+#@ default
+msgid "Add images to your gallery (maximum of 10 at a time, images larger than <strong>2mb</strong> will not upload)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:114
+#@ default
+msgid "You have not selected any images"
+msgstr ""
+
+#: ocmx/interface/gallery.php:124
+#@ default
+msgid "Image Dimensions"
+msgstr ""
+
+#: ocmx/interface/gallery.php:126
+#@ default
+msgid "Unless you customize your theme, dimensions will not need to be changed. These options will determain how large your images are when viewing the Gallery."
+msgstr ""
+
+#: ocmx/interface/gallery.php:130
+#@ default
+msgid "Small Image Dimensions (px)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:131
+#: ocmx/interface/gallery.php:140
+#@ default
+msgid "Width"
+msgstr ""
+
+#: ocmx/interface/gallery.php:134
+#: ocmx/interface/gallery.php:143
+#@ default
+msgid "Height"
+msgstr ""
+
+#: ocmx/interface/gallery.php:139
+#@ default
+msgid "Large Image Dimensions (px)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:146
+#@ default
+msgid "Proportions will automatically be constrained, with the larger value prioritized. Set Height or Width to 0 (zero) to ignore."
+msgstr ""
+
+#: ocmx/interface/gallery.php:173
+#@ default
+msgid "Image Title"
+msgstr ""
+
+#: ocmx/interface/gallery.php:177
+#@ default
+msgid "Caption"
+msgstr ""
+
+#: ocmx/interface/gallery.php:183
+#@ default
+msgid "Album Cover"
+msgstr ""
+
+#: ocmx/interface/gallery.php:206
+#: ocmx/interface/general.php:15
+#: ocmx/interface/layout.php:54
+#@ default
+msgid "label"
+msgstr ""
+
+#: ocmx/interface/gallery.php:210
+#: ocmx/interface/general.php:17
+#: ocmx/interface/layout.php:59
+#@ default
+msgid "description"
+msgstr ""
+
+#: ocmx/interface/general.php:10
+#: ocmx/interface/layout.php:30
+#@ default
+msgid "main_section"
+msgstr ""
+
+#: ocmx/interface/general.php:12
+#@ default
+msgid "main_description"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:22
+#@ default
+msgid "Your changes were successful."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:24
+#@ default
+msgid "These Options Have Been Reset."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:32
+#: ocmx/interface/ocmx-container.php:87
+#@ default
+msgid "Reset"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:42
+#@ default
+msgid "top_buttonhtml"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:95
+#@ default
+msgid "base_buttonhtml"
+msgstr ""
+
+#: ocmx/theme-setup/post-types.php:5
+#: ocmx/theme-setup/post-types.php:6
+#@ default
+msgid "Gallery"
+msgstr ""
+
+#: ocmx/widgets/latest-comments.php:16
+#@ ocmx
+msgid "Recent Comments"
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:6
+#@ default
+msgid "OCMX - Search Box"
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:16
+#@ ocmx
+msgid "Search"
+msgstr ""
+
+#: functions/fetch-list.php:5
+#@ ocmx
+msgid "written by"
+msgstr ""
+
+#: functions/fetch-list.php:13
+#@ ocmx
+msgid "Continue Reading &rarr;"
+msgstr ""
+
+#: functions.php:80
+#@ $themename
+msgid "Secondary Navigation"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:6
+#@ default
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:7
+#@ default
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:8
+#@ default
+msgctxt "portfolio"
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:9
+#@ default
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:10
+#@ default
+msgid "Edit "
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:11
+#@ default
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:12
+#@ default
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:13
+#@ default
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:14
+#@ default
+msgid "No portfolio items found"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:15
+#@ default
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:45
+#, php-format
+#@ default
+msgid "Portfolio Item updated. <a href=\"%s\">View portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:46
+#@ default
+msgid "Custom field updated."
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:47
+#@ default
+msgid "Custom field deleted."
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:48
+#@ default
+msgid "Product updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ocmx/theme-setup/portfolio-post-type.php:50
+#, php-format
+#@ default
+msgid "Product restored to revision from %s"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:51
+#, php-format
+#@ default
+msgid "Portfolio Item published. <a href=\"%s\">View portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:52
+#@ default
+msgid "Product saved."
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:53
+#, php-format
+#@ default
+msgid "Portfolio Item submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:54
+#, php-format
+#@ default
+msgid "Portfolio Item draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/post-types.php:22
+#: ocmx/theme-setup/post-types.php:23
+#@ default
+msgid "Quotes"
+msgstr ""
+
+#: ocmx/widgets/latest-comments.php:6
+#@ default
+msgid "OCMX - Comments"
+msgstr ""
+
+#: ocmx/widgets/medium-advert-widget.php:6
+#@ default
+msgid "OCMX - Large Adverts"
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:5
+#@ default
+msgid "Popular Posts widget."
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:6
+#@ default
+msgid "OCMX - Popular Posts"
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:5
+#@ default
+msgid "OCMX - Search box "
+msgstr ""
+
+#: ocmx/widgets/social-widget.php:23
+#@ ocmx
+msgid "Connect"
+msgstr ""
+
+#: portfolio.php:23
+#: taxonomy-portfolio-category.php:23
+#@ ocmx
+#@ default
+msgid "Categories"
+msgstr ""
+
+#: search.php:5
+#@ ocmx
+msgid "Results for"
+msgstr ""
+
+#: comments.php:30
+#@ ocmx
+msgid "Reply"
+msgstr ""
+
+#: comments.php:59
+#@ ocmx
+msgid "Posting your comment..."
+msgstr ""
+
+#: 404.php:10
+#@ ocmx
+msgid "Ohh Snap! 404 Error"
+msgstr ""
+
+#: 404.php:11
+#@ ocmx
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: comments.php:6
+#@ ocmx
+msgid " No Comments"
+msgstr ""
+
+#: comments.php:6
+#@ ocmx
+msgid " 1 Comment"
+msgstr ""
+
+#: comments.php:6
+#@ ocmx
+msgid " % Comments"
+msgstr ""
+
+#: functions/fetch-post.php:28
+#@ ocmx
+msgid "Post Date"
+msgstr ""
+
+#: functions/fetch-post.php:32
+#@ ocmx
+msgid "Short Url"
+msgstr ""
+
+#: functions/fetch-post.php:37
+#@ ocmx
+msgid "Post Tags"
+msgstr ""
+
+#: functions/fetch-post.php:43
+#@ ocmx
+msgid "Previous"
+msgstr ""
+
+#: functions/fetch-post.php:51
+#@ ocmx
+msgid "Next"
+msgstr ""
+
+#: functions/fetch-post.php:56
+#@ ocmx
+msgid "Related"
+msgstr ""
+
+#: ocmx/interface/fonts.php:72
+#@ default
+msgid ""
+"Below is a general overview of the typography and color changes that you have made to your theme.\n"
+"            The reason for this page is for you to get an idea of how your style selection looks in combination with each other thereby allowing you to get the right balance between the elements."
+msgstr ""
+
